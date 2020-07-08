@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 20130941100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "As user I can select product sign in",
+        "description": "",
+        "id": "choose-your-industry;as-user-i-can-select-product-sign-in",
+        "after": [
+          {
+            "result": {
+              "duration": 1570917400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.closeBrowse(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 464035900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on home page",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 501231700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on productSignIn link",
+            "match": {
+              "location": "MyStepdefs.iClickOnProductSignInLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I will navigate to product sing in page",
+            "match": {
+              "location": "MyStepdefs.iWillNavigateToProductSingInPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Choose your industry",
+    "description": "",
+    "id": "choose-your-industry",
+    "keyword": "Feature",
+    "uri": "src/test/java/uk/co/risk/lexisnexis/resources/featurefiles/industry.feature"
+  }
+]
